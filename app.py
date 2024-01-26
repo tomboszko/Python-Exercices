@@ -3,8 +3,17 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route('/')
-def hello():
-    return render_template('hello.html', name="Monsieur Toms")
+def index():
+    return render_template('index.html')
 
-if __name__ == '__main__':
+print("Starting the Flask application...")
+
+age = input("How old are you?")
+print("Your age", age)
+
+if __name__ == "__main__":
     app.run(debug=True)
+
+age = input("How old are you?")
+print("Your age", age)
+
