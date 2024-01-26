@@ -8,12 +8,14 @@ def index():
 
 print("Starting the Flask application...")
 
-age = input("How old are you?")
-print("Your age", age)
+countAlpha = len("Hello world!")
+print("The number of characters in the string 'Hello world!' is: ", countAlpha)
+
+countFloat = float(countAlpha)
+print("The float value of countAlpha is: ", countFloat)
 
 if __name__ == "__main__":
     app.run(debug=True)
 
-age = input("How old are you?")
-print("Your age", age)
+
 
