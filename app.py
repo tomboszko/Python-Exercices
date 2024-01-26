@@ -14,6 +14,37 @@ print("The number of characters in the string 'Hello world!' is: ", countAlpha)
 countFloat = float(countAlpha)
 print("The float value of countAlpha is: ", countFloat)
 
+import math
+
+pi = math.pi
+roundPi = round(pi, 2)
+print("The value of pi is: ", pi)
+
+reversedText = list("Hello world!"[::-1])
+
+print("The number of characters in the string 'Hello world!' is: ", countAlpha)
+
+countFloat = float(countAlpha)
+print("The float value of countAlpha is: ", countFloat)
+
+import math
+
+pi = math.pi
+roundPi = round(pi, 2)
+print("The value of pi is: ", pi)
+
+reversedText = list("Hello world!"[::-1])
+print("The reversed string is: ", reversedText)
+
+
+age=int(input("Enter your age: "))
+print("Your age is: ",age, type(age))
+
+num = [2, 8, 1, 4, 6, 3, 7] 
+sortNum = sorted(num)
+print("The sorted list is: ", sortNum)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 
